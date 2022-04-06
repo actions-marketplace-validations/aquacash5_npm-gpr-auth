@@ -30,8 +30,14 @@ by default. You should be able to use it without any further setup. Of course,
 you can also use a different token instead. This is useful if, for example, you
 want to publish a repo different from the current one.
 
+## Options
+
+| Name      | Type   | Description                                    |
+| --------- | ------ | ---------------------------------------------- |
+| token     | string | Github token to inject into your `.npmrc` file |
+| base-path | string | Directory to find the `.npmrc` file            |
+
 # License
 
-[MIT](LICENSE) &copy; 2019 Jonas Gierer<br/>
-[MIT](LICENSE) &copy; 2020 Kyle Bloom
-
+[MIT](LICENSE) &copy; 2019 Jonas Gierer<br/> [MIT](LICENSE) &copy; 2020 Kyle
+Bloom
