@@ -12,6 +12,12 @@ inputs:
       The token used for authentication. Usually, this should be your
       `secrets.GITHUB_TOKEN`
     required: true
+  base-path:
+    description:
+      The token used for authentication. Usually, this should be your
+      `secrets.GITHUB_TOKEN`
+    default: .
+    required: false
 runs:
-  using: node12
+  using: node16
   main: dist/index.js
